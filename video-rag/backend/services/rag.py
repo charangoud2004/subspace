@@ -2,21 +2,37 @@ import os
 import json
 from typing import AsyncGenerator, Tuple, Optional, List
 from dotenv import load_dotenv
-from langchain.memory import ConversationBufferMemory
-from services.embedder import get_vectorstore
+from services.embedder import get_retriever_docs
 
 load_dotenv()
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 
 # Global session store
 sessions: dict = {}
 
 
+class SimpleMemory:
+    """Simple conversation memory (replaces langchain ConversationBufferMemory)."""
+
+    def __init__(self):
+        self.history: list[dict] = []
+
+    def add(self, user_msg: str, ai_msg: str):
+        self.history.append({"user": user_msg, "assistant": ai_msg})
+
+    def get_history_str(self) -> str:
+        lines = []
+        for turn in self.history:
+            lines.append(f"User: {turn['user']}")
+            lines.append(f"Assistant: {turn['assistant']}")
+        return "\n".join(lines)
+
+
 def init_session(session_id: str, metadata_a: dict, metadata_b: dict):
     """Initialize a session with memory and video metadata."""
     sessions[session_id] = {
-        "memory": ConversationBufferMemory(return_messages=False),
+        "memory": SimpleMemory(),
         "metadata": {
             "A": metadata_a,
             "B": metadata_b,
@@ -30,8 +46,8 @@ async def stream_response(
 ) -> AsyncGenerator[Tuple[str, Optional[List[dict]]], None]:
     """Stream LLM response token by token, then yield sources at the end."""
 
-    if not GEMINI_API_KEY:
-        yield "⚠️ Please add GEMINI_API_KEY to your .env file to enable AI responses.", None
+    if not GROQ_API_KEY:
+        yield "⚠️ Please add GROQ_API_KEY to your .env file to enable AI responses.", None
         yield "", []
         return
 
@@ -45,11 +61,10 @@ async def stream_response(
     memory = session["memory"]
 
     # Retrieve relevant documents
-    vectorstore = get_vectorstore(session_id)
-    retriever = vectorstore.as_retriever(search_kwargs={"k": 4})
+
 
     try:
-        docs = retriever.invoke(question)
+        docs = get_retriever_docs(session_id, question, k=4)
     except Exception as e:
         print(f"[rag] Retrieval failed: {e}")
         docs = []
@@ -64,7 +79,7 @@ async def stream_response(
     ]
 
     context = "\n\n".join([d.page_content for d in docs])
-    history = memory.load_memory_variables({}).get("history", "")
+    history = memory.get_history_str()
 
     # Build metadata summaries (exclude transcript to save tokens)
     meta_a = {k: v for k, v in metadata["A"].items() if k != "transcript"}
@@ -91,12 +106,12 @@ Instructions:
 - Format your response with markdown for readability"""
 
     try:
-        from langchain_google_genai import ChatGoogleGenerativeAI
+        from langchain_groq import ChatGroq  # type: ignore
 
-        llm = ChatGoogleGenerativeAI(
-            model="gemini-1.5-flash",
+        llm = ChatGroq(
+            model="llama-3.1-8b-instant",
             streaming=True,
-            google_api_key=GEMINI_API_KEY,
+            groq_api_key=GROQ_API_KEY,
         )
 
         full_response = ""
@@ -107,7 +122,7 @@ Instructions:
                 yield token, None
 
         # Save to memory
-        memory.save_context({"input": question}, {"output": full_response})
+        memory.add(question, full_response)
 
         # Final yield with sources
         yield "", sources

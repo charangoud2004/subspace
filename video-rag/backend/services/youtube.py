@@ -19,6 +19,14 @@ def extract_video_id(url: str) -> str:
 def get_transcript(video_id: str) -> str:
     """Fetch transcript using youtube-transcript-api."""
     try:
+        # v1.x API: instance method .fetch()
+        ytt = YouTubeTranscriptApi()
+        transcript_list = ytt.fetch(video_id)
+        return " ".join([entry.text for entry in transcript_list])
+    except AttributeError:
+        pass
+    try:
+        # v0.x API: class method .get_transcript()
         transcript_list = YouTubeTranscriptApi.get_transcript(video_id)
         return " ".join([entry["text"] for entry in transcript_list])
     except Exception as e:
