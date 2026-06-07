@@ -1,5 +1,7 @@
 ﻿import os
+import json
 import logging
+from datetime import datetime, timezone
 from typing import Any, List, Optional
 from urllib.parse import urljoin
 import requests
@@ -71,3 +73,24 @@ def request_json(url: str, method: str = "GET", headers: Optional[dict] = None,
     except requests.exceptions.RequestException as e:
         log_error(f"Request to {url} failed", e)
         return None
+
+
+def first_name(full_name: str) -> str:
+    return full_name.strip().split()[0] if full_name.strip() else ""
+
+
+def html_paragraphs(text: str) -> str:
+    paragraphs = [p.strip() for p in text.strip().split('\n\n') if p.strip()]
+    return ''.join(f'<p>{p.replace(chr(10), "<br>")}</p>' for p in paragraphs)
+
+
+def utc_now_iso() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def append_json_log(filename: str, record: dict) -> None:
+    try:
+        with open(filename, 'a', encoding='utf-8') as f:
+            f.write(json.dumps(record) + '\n')
+    except Exception as e:
+        log_error(f"Failed to append to {filename}", e)
