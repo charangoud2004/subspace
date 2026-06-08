@@ -94,3 +94,11 @@ def append_json_log(filename: str, record: dict) -> None:
             f.write(json.dumps(record) + '\n')
     except Exception as e:
         log_error(f"Failed to append to {filename}", e)
+
+
+def save_json(filename: str, data: Any) -> None:
+    try:
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2)
+    except Exception as e:
+        log_error(f"Failed to save {filename}", e)
