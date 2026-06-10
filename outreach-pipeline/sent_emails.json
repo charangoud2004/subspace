@@ -1,0 +1,362 @@
+[
+  {
+    "timestamp": "2026-06-08T05:04:50+00:00",
+    "email": "chetan.nagaraju@razorpay.com",
+    "name": "Chetan Nagaraju",
+    "company": "Razorpay",
+    "domain": "razorpay.com",
+    "message_id": "<202606080504.91358226770@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:04:51+00:00",
+    "email": "shwetabh.ranjan@razorpay.com",
+    "name": "Shwetabh Ranjan",
+    "company": "Razorpay",
+    "domain": "razorpay.com",
+    "message_id": "<202606080504.97294619947@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:04:52+00:00",
+    "email": "tushar.saxena@razorpay.com",
+    "name": "Tushar Saxena",
+    "company": "Razorpay",
+    "domain": "razorpay.com",
+    "message_id": "<202606080504.63037755328@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:04:54+00:00",
+    "email": "nekzad.malegamwalla@cashfree.com",
+    "name": "Nekzad Malegamwalla",
+    "company": "Cashfree Payments",
+    "domain": "cashfree.com",
+    "message_id": "<202606080504.34920419653@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:04:55+00:00",
+    "email": "prasad.joshi@cashfree.com",
+    "name": "Prasad Joshi",
+    "company": "Cashfree Payments",
+    "domain": "cashfree.com",
+    "message_id": "<202606080504.32257055544@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:04:57+00:00",
+    "email": "mahan.shahi@adyen.com",
+    "name": "Mahan Shahi",
+    "company": "Adyen",
+    "domain": "adyen.com",
+    "message_id": "<202606080504.53774906458@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:04:58+00:00",
+    "email": "russellb@rapyd.net",
+    "name": "Russell Benton",
+    "company": "Rapyd",
+    "domain": "rapyd.net",
+    "message_id": "<202606080504.10586949842@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:04:59+00:00",
+    "email": "harels@rapyd.net",
+    "name": "Harel Shomer",
+    "company": "Rapyd",
+    "domain": "rapyd.net",
+    "message_id": "<202606080505.15442080826@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:05:01+00:00",
+    "email": "naorh@rapyd.net",
+    "name": "Naor Hazut",
+    "company": "Rapyd",
+    "domain": "rapyd.net",
+    "message_id": "<202606080505.63246785068@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:05:02+00:00",
+    "email": "ronig@rapyd.net",
+    "name": "Roni Gaon",
+    "company": "Rapyd",
+    "domain": "rapyd.net",
+    "message_id": "<202606080505.49456274257@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:05:04+00:00",
+    "email": "tamid@rapyd.net",
+    "name": "Tami Dubi",
+    "company": "Rapyd",
+    "domain": "rapyd.net",
+    "message_id": "<202606080505.31124227072@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:05:05+00:00",
+    "email": "markus.jansson@payer.eu",
+    "name": "Markus Jansson",
+    "company": "Payer - B2B Invoicing & Payments",
+    "domain": "payer.eu",
+    "message_id": "<202606080505.98372303198@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:05:06+00:00",
+    "email": "ahuitron@dlocal.com",
+    "name": "Armando Huitron",
+    "company": "dLocal",
+    "domain": "dlocal.com",
+    "message_id": "<202606080505.91523026680@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:05:08+00:00",
+    "email": "federico.mazzoli@dlocal.com",
+    "name": "Federico Mazzoli",
+    "company": "dLocal",
+    "domain": "dlocal.com",
+    "message_id": "<202606080505.10830972647@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:05:09+00:00",
+    "email": "daniel.cini@dlocal.com",
+    "name": "Daniel Cini",
+    "company": "dLocal",
+    "domain": "dlocal.com",
+    "message_id": "<202606080505.10649952805@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:05:10+00:00",
+    "email": "cellina@dlocal.com",
+    "name": "Christiana Ellina",
+    "company": "dLocal",
+    "domain": "dlocal.com",
+    "message_id": "<202606080505.40683737400@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:05:12+00:00",
+    "email": "ahmed.fahmy@paytabs.com",
+    "name": "Ahmed Fahmy",
+    "company": "PayTabs Global",
+    "domain": "paytabs.com",
+    "message_id": "<202606080505.27724749925@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:05:13+00:00",
+    "email": "faisal.alqahtani@paytabs.com",
+    "name": "Faisal Alqahtani",
+    "company": "PayTabs Global",
+    "domain": "paytabs.com",
+    "message_id": "<202606080505.65079439832@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:05:14+00:00",
+    "email": "kaan.kosvar@paytabs.com",
+    "name": "Kaan Kosvar",
+    "company": "PayTabs Global",
+    "domain": "paytabs.com",
+    "message_id": "<202606080505.84866062611@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:05:16+00:00",
+    "email": "williaml@bluesnap.com",
+    "name": "William Lavey",
+    "company": "BlueSnap",
+    "domain": "bluesnap.com",
+    "message_id": "<202606080505.75435977346@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:05:17+00:00",
+    "email": "jenniec@bluesnap.com",
+    "name": "Jennie Cohen",
+    "company": "BlueSnap",
+    "domain": "bluesnap.com",
+    "message_id": "<202606080505.59116909002@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:05:19+00:00",
+    "email": "henryh@bluesnap.com",
+    "name": "Henry Helgeson",
+    "company": "BlueSnap",
+    "domain": "bluesnap.com",
+    "message_id": "<202606080505.56247154611@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-08T05:05:20+00:00",
+    "email": "spuckrin@gocardless.com",
+    "name": "Shaun Puckrin",
+    "company": "GoCardless",
+    "domain": "gocardless.com",
+    "message_id": "<202606080505.29507814129@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:25+00:00",
+    "email": "chetan.nagaraju@razorpay.com",
+    "name": "Chetan Nagaraju",
+    "company": "Razorpay",
+    "domain": "razorpay.com",
+    "message_id": "<202606100708.34663624826@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:26+00:00",
+    "email": "shwetabh.ranjan@razorpay.com",
+    "name": "Shwetabh Ranjan",
+    "company": "Razorpay",
+    "domain": "razorpay.com",
+    "message_id": "<202606100708.59773977883@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:28+00:00",
+    "email": "tushar.saxena@razorpay.com",
+    "name": "Tushar Saxena",
+    "company": "Razorpay",
+    "domain": "razorpay.com",
+    "message_id": "<202606100708.91942520351@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:29+00:00",
+    "email": "nekzad.malegamwalla@cashfree.com",
+    "name": "Nekzad Malegamwalla",
+    "company": "Cashfree Payments",
+    "domain": "cashfree.com",
+    "message_id": "<202606100708.73969331029@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:30+00:00",
+    "email": "mahan.shahi@adyen.com",
+    "name": "Mahan Shahi",
+    "company": "Adyen",
+    "domain": "adyen.com",
+    "message_id": "<202606100708.79098458177@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:31+00:00",
+    "email": "russellb@rapyd.net",
+    "name": "Russell Benton",
+    "company": "Rapyd",
+    "domain": "rapyd.net",
+    "message_id": "<202606100708.88757224777@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:33+00:00",
+    "email": "harels@rapyd.net",
+    "name": "Harel Shomer",
+    "company": "Rapyd",
+    "domain": "rapyd.net",
+    "message_id": "<202606100708.34549941153@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:34+00:00",
+    "email": "naorh@rapyd.net",
+    "name": "Naor Hazut",
+    "company": "Rapyd",
+    "domain": "rapyd.net",
+    "message_id": "<202606100708.15557703731@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:35+00:00",
+    "email": "ronig@rapyd.net",
+    "name": "Roni Gaon",
+    "company": "Rapyd",
+    "domain": "rapyd.net",
+    "message_id": "<202606100708.46320866288@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:36+00:00",
+    "email": "tamid@rapyd.net",
+    "name": "Tami Dubi",
+    "company": "Rapyd",
+    "domain": "rapyd.net",
+    "message_id": "<202606100708.50302598610@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:38+00:00",
+    "email": "markus.jansson@payer.eu",
+    "name": "Markus Jansson",
+    "company": "Payer - B2B Invoicing & Payments",
+    "domain": "payer.eu",
+    "message_id": "<202606100708.71987247697@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:39+00:00",
+    "email": "ahuitron@dlocal.com",
+    "name": "Armando Huitron",
+    "company": "dLocal",
+    "domain": "dlocal.com",
+    "message_id": "<202606100708.72047227160@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:40+00:00",
+    "email": "federico.mazzoli@dlocal.com",
+    "name": "Federico Mazzoli",
+    "company": "dLocal",
+    "domain": "dlocal.com",
+    "message_id": "<202606100708.23405612310@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:42+00:00",
+    "email": "daniel.cini@dlocal.com",
+    "name": "Daniel Cini",
+    "company": "dLocal",
+    "domain": "dlocal.com",
+    "message_id": "<202606100708.71087088625@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:43+00:00",
+    "email": "cellina@dlocal.com",
+    "name": "Christiana Ellina",
+    "company": "dLocal",
+    "domain": "dlocal.com",
+    "message_id": "<202606100708.86551392932@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:44+00:00",
+    "email": "ahmed.fahmy@paytabs.com",
+    "name": "Ahmed Fahmy",
+    "company": "PayTabs Global",
+    "domain": "paytabs.com",
+    "message_id": "<202606100708.88180993304@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:45+00:00",
+    "email": "faisal.alqahtani@paytabs.com",
+    "name": "Faisal Alqahtani",
+    "company": "PayTabs Global",
+    "domain": "paytabs.com",
+    "message_id": "<202606100708.90463546270@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:47+00:00",
+    "email": "kaan.kosvar@paytabs.com",
+    "name": "Kaan Kosvar",
+    "company": "PayTabs Global",
+    "domain": "paytabs.com",
+    "message_id": "<202606100708.59965590744@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:48+00:00",
+    "email": "williaml@bluesnap.com",
+    "name": "William Lavey",
+    "company": "BlueSnap",
+    "domain": "bluesnap.com",
+    "message_id": "<202606100708.80110890811@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:49+00:00",
+    "email": "jenniec@bluesnap.com",
+    "name": "Jennie Cohen",
+    "company": "BlueSnap",
+    "domain": "bluesnap.com",
+    "message_id": "<202606100708.94414700715@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:51+00:00",
+    "email": "henryh@bluesnap.com",
+    "name": "Henry Helgeson",
+    "company": "BlueSnap",
+    "domain": "bluesnap.com",
+    "message_id": "<202606100708.21455236013@smtp-relay.mailin.fr>"
+  },
+  {
+    "timestamp": "2026-06-10T07:08:52+00:00",
+    "email": "spuckrin@gocardless.com",
+    "name": "Shaun Puckrin",
+    "company": "GoCardless",
+    "domain": "gocardless.com",
+    "message_id": "<202606100708.51882920419@smtp-relay.mailin.fr>"
+  }
+]
